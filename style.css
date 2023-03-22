@@ -67,6 +67,8 @@ p {
     background-repeat: no-repeat;
     background-position: left;
     text-align: left;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 .experience-item {
@@ -77,11 +79,28 @@ p {
     text-align: justify;
 }
 
-.for-margin01 {
+#for-margin01 {
     margin: 5px 20px 10px 70px;
+    border-left: 6px solid #FB6B59;
+
 }
 
-.for-margin02 {
+#for-margin02 {
     margin: 5px 70px 10px 20px;
+    border-left: 6px solid #FB6B59;
+    border-image: url(li);
+
+}
+.icons{
+   text-align: center;
+   background-color: #c4c4c4ad;
+   height: 150px;
+   padding-top: 75px;
+   font-weight: 600;
+}
+.icons img{
+    width: 20px;
+    padding-left: 10px;
+
 
 }
