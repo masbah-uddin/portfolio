@@ -11,21 +11,24 @@ p {
 
 .font {
     color: orange;
+    font-weight: bold;
 }
 
 section {
     display: flex;
+    margin-bottom: 80px;
 }
 
 .half-width {
-    width: 60%;
+    width: 70%;
     padding: 20px 70px;
 }
 
 .half-width img {
-    width: 80%;
+    width: 90%;
     padding-left: 80px;
     padding-top: 40px;
+
 }
 
 .link-button {
@@ -43,4 +46,10 @@ section {
 .banner-add{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+
 }
